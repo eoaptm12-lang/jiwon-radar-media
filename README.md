@@ -1,1 +1,3 @@
-# jiwon-radar-media
+# 지원금 레이더 미디어
+
+인스타그램 @jiwon.radar 자동 업로드용 이미지·영상 저장소입니다.
