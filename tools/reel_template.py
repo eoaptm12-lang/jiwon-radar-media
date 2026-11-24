@@ -91,8 +91,7 @@ SRC = "출처: 정부 '청년예산 언박싱 2027' (2026.8.28) · 예산안 기
 def baseB():
     im = Image.new("RGB", (W, H), BG)
     d = ImageDraw.Draw(im)
-    d.text((80, 150), "지원금 레이더", font=F("Black", 40), fill=GRN)
-    d.text((80, 205), "@jiwon.radar", font=F("Regular", 32), fill=SUB)
+    d.text((80, 170), "지원금 레이더", font=F("Black", 44), fill=GRN)
     center(d, 1560, SRC, F("Regular", 28), SUB)
     return im, d
 

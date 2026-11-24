@@ -22,8 +22,7 @@ def left(d, x, y, text, font, fill, spacing=14):
 def base(page, total, src=None):
     im = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(im)
     im.paste(logo, (70, 64), mask)
-    d.text((170, 76), "지원금 레이더", font=F("Black", 36), fill=INK)
-    d.text((170, 118), "@jiwon.radar", font=F("Regular", 26), fill=SUB)
+    d.text((170, 106), "지원금 레이더", font=F("Black", 38), fill=INK, anchor="lm")
     d.text((W-70, 100), f"{page}/{total}", font=F("Bold", 28), fill=SUB, anchor="rm")
     if src: center(d, H-80, src, F("Regular", 24), SUB)
     return im, d
