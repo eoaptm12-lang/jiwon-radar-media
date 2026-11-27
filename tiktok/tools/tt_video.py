@@ -101,6 +101,13 @@ def r_question(s, p, accent, count=None):
             d.rounded_rectangle((x0, 900, x0 + 360, 1250), 40, outline=col, width=10)
             lw = d.textlength(lab, font=F(210))
             d.text((x0 + (360 - lw) / 2, 935), lab, font=F(210), fill=col)
+    if s.get("qtype") == "ab":
+        for i, (lab, txt, col) in enumerate([("A", s["opts"][0], CYAN), ("B", s["opts"][1], PINK)]):
+            y0 = 760 + i * 300
+            d.rounded_rectangle((110, y0, W - 150, y0 + 250), 36, outline=col, width=8)
+            d.text((160, y0 + 55), lab, font=F(120), fill=col)
+            f = F(96); w = d.textlength(txt, font=f)
+            d.text((320 + (W - 150 - 320 - w) / 2, y0 + 65), txt, font=f, fill=WHITE)
     if count is not None:
         d.ellipse((430, 1360, 630, 1560), outline=YEL, width=12)
         f = F(110); w = d.textlength(str(count), font=f)
@@ -111,10 +118,10 @@ def r_question(s, p, accent, count=None):
 def r_answer(s, p, accent):
     im, d = frame(accent, s.get("tag"), p)
     block(d, 400, "정답은", 66, GRAY, black=False)
-    ans = s["a"]; col = CYAN if ans == "O" else PINK
+    ans = s["a"]; col = CYAN if ans in ("O", "A") else PINK
     d.rounded_rectangle((385, 510, 675, 800), 40, fill=col)
     f = F(210); w = d.textlength(ans, font=f)
-    d.text((530 - w / 2, 525), ans, font=f, fill=WHITE if ans == "X" else BG)
+    d.text((530 - w / 2, 525), ans, font=f, fill=WHITE if ans in ("X", "B") else BG)
     y = block(d, 920, s["why"], 76, WHITE, gap=0.25)
     if s.get("more"):
         block(d, y + 40, s["more"], 50, GRAY, black=False)

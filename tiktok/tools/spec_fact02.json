@@ -1,0 +1,124 @@
+{
+ "name": "tt_fact02_barcode",
+ "accent": "lime",
+ "bpm": 112,
+ "seed": 21,
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 2.2,
+   "tag": "1분 상식",
+   "title": "바코드 숫자\n880의 비밀",
+   "size": 120,
+   "pill": "보너스 QR코드까지"
+  },
+  {
+   "type": "text",
+   "tag": "1 / 8",
+   "body": "편의점 물건 뒤\n바코드 숫자\n맨 앞 3자리를 보세요",
+   "dur": 4.2,
+   "kicker": "지금 확인!"
+  },
+  {
+   "type": "text",
+   "tag": "2 / 8",
+   "body": "880으로 시작하면\n한국에서 발급받은\n바코드예요",
+   "dur": 4.2,
+   "kicker": "880 = 한국"
+  },
+  {
+   "type": "text",
+   "tag": "3 / 8",
+   "body": "미국은 0·1로 시작\n일본은 45·49\n중국은 690~699",
+   "dur": 4.6,
+   "kicker": "나라마다 달라요"
+  },
+  {
+   "type": "text",
+   "tag": "4 / 8",
+   "body": "880이라도\n외국 공장에서\n만들 수 있어요",
+   "dur": 4.2,
+   "kicker": "주의!",
+   "kicker_color": "pink",
+   "hl": "원산지 표시가 따로 있어요",
+   "hl_size": 64
+  },
+  {
+   "type": "text",
+   "tag": "5 / 8",
+   "body": "다음 숫자는\n회사 번호,\n그다음은 상품 번호",
+   "dur": 4.2,
+   "kicker": "나머지 숫자는?"
+  },
+  {
+   "type": "text",
+   "tag": "6 / 8",
+   "body": "마지막 1자리는\n앞 숫자를 계산한\n'검증 번호'예요",
+   "dur": 4.2,
+   "kicker": "맨 끝 숫자",
+   "hl": "잘못 찍히면\n바로 알아채요"
+  },
+  {
+   "type": "text",
+   "tag": "7 / 8",
+   "body": "1974년 미국\n슈퍼마켓에서\n껌 한 통이\n처음 스캔됐어요",
+   "dur": 4.6,
+   "kicker": "첫 바코드 상품은?"
+  },
+  {
+   "type": "text",
+   "tag": "8 / 8",
+   "body": "굵기와 간격으로\n숫자를 표현해서\n위아래가 잘려도\n읽혀요",
+   "dur": 4.2,
+   "kicker": "줄무늬의 비밀"
+  },
+  {
+   "type": "text",
+   "tag": "보너스 1",
+   "body": "1994년 일본의\n자동차 부품 회사가\n처음 만들었어요",
+   "dur": 4.6,
+   "kicker": "QR코드의 시작",
+   "kicker_color": "yel"
+  },
+  {
+   "type": "text",
+   "tag": "보너스 2",
+   "body": "최대 약 30%가\n가려지거나 찢어져도\n읽을 수 있어요",
+   "dur": 4.6,
+   "kicker": "QR코드는 튼튼해요",
+   "kicker_color": "yel"
+  },
+  {
+   "type": "text",
+   "tag": "보너스 3",
+   "body": "QR 모서리 3곳의\n큰 네모는\n위치를 찾는 표시예요",
+   "dur": 4.6,
+   "kicker": "네모 3개의 정체",
+   "kicker_color": "yel"
+  },
+  {
+   "type": "text",
+   "tag": "보너스 4",
+   "body": "바코드는 숫자 십여 개\nQR코드는\n숫자 수천 개까지",
+   "dur": 4.4,
+   "kicker": "얼마나 담을까?",
+   "kicker_color": "yel"
+  },
+  {
+   "type": "text",
+   "tag": "보너스 5",
+   "kicker": "책 바코드는 달라요",
+   "kicker_color": "yel",
+   "body": "책은 나라와 상관없이\n978이나 979로\n시작해요",
+   "dur": 4.2
+  },
+  {
+   "type": "hook",
+   "dur": 3.2,
+   "tag": "다음 편",
+   "title": "다음 궁금증은\n댓글로 신청!",
+   "size": 104,
+   "pill": "팔로우하고 매일 1분 상식"
+  }
+ ]
+}

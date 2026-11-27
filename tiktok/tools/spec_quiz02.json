@@ -1,0 +1,202 @@
+{
+ "name": "tt_quiz02_spelling",
+ "accent": "pink",
+ "bpm": 118,
+ "seed": 11,
+ "countdown": 2.1,
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 1.8,
+   "tag": "맞춤법 퀴즈",
+   "kicker": "9문제",
+   "title": "다 맞히면\n국어 천재",
+   "pill": "점수는 댓글로"
+  },
+  {
+   "type": "question",
+   "dur": 1.8,
+   "tag": "Q1 / 9",
+   "q": "맞는 말은?",
+   "qtype": "ab",
+   "opts": [
+    "어이없다",
+    "어의없다"
+   ],
+   "size": 100
+  },
+  {
+   "type": "answer",
+   "dur": 2.2,
+   "tag": "Q1 정답",
+   "a": "A",
+   "why": "어이없다\n'어의'는 임금님 의사예요"
+  },
+  {
+   "type": "question",
+   "dur": 1.8,
+   "tag": "Q2 / 9",
+   "q": "맞는 말은?",
+   "qtype": "ab",
+   "opts": [
+    "왠만하면",
+    "웬만하면"
+   ],
+   "size": 100
+  },
+  {
+   "type": "answer",
+   "dur": 2.2,
+   "tag": "Q2 정답",
+   "a": "B",
+   "why": "웬만하면\n'왠'은 '왠지'에만 써요"
+  },
+  {
+   "type": "question",
+   "dur": 1.8,
+   "tag": "Q3 / 9",
+   "q": "맞는 말은?",
+   "qtype": "ab",
+   "opts": [
+    "금세",
+    "금새"
+   ],
+   "size": 100
+  },
+  {
+   "type": "answer",
+   "dur": 2.2,
+   "tag": "Q3 정답",
+   "a": "A",
+   "why": "금세\n'금시에'가 줄어든 말"
+  },
+  {
+   "type": "question",
+   "dur": 1.8,
+   "tag": "Q4 / 9",
+   "q": "맞는 말은?",
+   "qtype": "ab",
+   "opts": [
+    "몇일",
+    "며칠"
+   ],
+   "size": 100
+  },
+  {
+   "type": "answer",
+   "dur": 2.2,
+   "tag": "Q4 정답",
+   "a": "B",
+   "why": "며칠\n'몇일'은 없는 말이에요"
+  },
+  {
+   "type": "question",
+   "dur": 1.8,
+   "tag": "Q5 / 9",
+   "q": "맞는 말은?",
+   "qtype": "ab",
+   "opts": [
+    "설레이다",
+    "설레다"
+   ],
+   "size": 100
+  },
+  {
+   "type": "answer",
+   "dur": 2.2,
+   "tag": "Q5 정답",
+   "a": "B",
+   "why": "설레다\n'설렘'도 같이 기억!"
+  },
+  {
+   "type": "question",
+   "dur": 1.8,
+   "tag": "Q6 / 9",
+   "q": "맞는 말은?",
+   "qtype": "ab",
+   "opts": [
+    "오랜만",
+    "오랫만"
+   ],
+   "size": 100
+  },
+  {
+   "type": "answer",
+   "dur": 2.2,
+   "tag": "Q6 정답",
+   "a": "A",
+   "why": "오랜만\n'오래간만'이 줄어든 말"
+  },
+  {
+   "type": "question",
+   "dur": 1.8,
+   "tag": "Q7 / 9",
+   "q": "맞는 말은?",
+   "qtype": "ab",
+   "opts": [
+    "역할",
+    "역활"
+   ],
+   "size": 100
+  },
+  {
+   "type": "answer",
+   "dur": 2.2,
+   "tag": "Q7 정답",
+   "a": "A",
+   "why": "역할\n'역활'은 없는 말이에요"
+  },
+  {
+   "type": "question",
+   "dur": 1.8,
+   "tag": "Q8 / 9",
+   "q": "맞는 말은?",
+   "qtype": "ab",
+   "opts": [
+    "희안하다",
+    "희한하다"
+   ],
+   "size": 100
+  },
+  {
+   "type": "answer",
+   "dur": 2.2,
+   "tag": "Q8 정답",
+   "a": "B",
+   "why": "희한하다\n드물 희, 드물 한"
+  },
+  {
+   "type": "question",
+   "dur": 1.8,
+   "tag": "Q9 / 9",
+   "q": "맞는 말은?",
+   "qtype": "ab",
+   "opts": [
+    "안 돼",
+    "안 되"
+   ],
+   "size": 100
+  },
+  {
+   "type": "answer",
+   "dur": 2.2,
+   "tag": "Q9 정답",
+   "a": "A",
+   "why": "안 돼\n'되어'가 줄면 '돼'"
+  },
+  {
+   "type": "balance",
+   "dur": 3.5,
+   "title": "보너스! 연애한다면?",
+   "a": "맞춤법 자주\n틀리는 애인",
+   "b": "답장 하루\n늦는 애인"
+  },
+  {
+   "type": "result",
+   "dur": 2.5,
+   "title": "몇 개 맞혔어요?",
+   "lines": "9개  국어 천재\n7~8개  상위 10%\n6개 이하  평균",
+   "pill": "팔로우하면 내일 2탄"
+  }
+ ]
+}
