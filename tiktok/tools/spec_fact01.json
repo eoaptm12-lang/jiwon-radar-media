@@ -1,0 +1,125 @@
+{
+ "name": "tt_fact01_plane_window",
+ "accent": "lime",
+ "bpm": 112,
+ "seed": 7,
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 2.2,
+   "tag": "1분 상식",
+   "title": "비행기 창문은\n왜 다 둥글까?",
+   "size": 116,
+   "pill": "보너스 5개까지"
+  },
+  {
+   "type": "text",
+   "tag": "1 / 8",
+   "body": "세계 최초 제트 여객기\n'코밋'은\n창문이 네모났어요",
+   "dur": 4.2,
+   "kicker": "1950년대",
+   "icon": "square"
+  },
+  {
+   "type": "text",
+   "tag": "2 / 8",
+   "body": "비행 중 기체가\n공중에서 부서지는\n사고가 이어졌어요",
+   "dur": 4.2,
+   "kicker": "1954년",
+   "kicker_color": "pink"
+  },
+  {
+   "type": "text",
+   "tag": "3 / 8",
+   "body": "동체를 통째로\n물탱크에 넣고\n압력을 수천 번\n반복해 봤어요",
+   "dur": 4.6,
+   "kicker": "원인을 찾는 실험"
+  },
+  {
+   "type": "text",
+   "tag": "4 / 8",
+   "body": "균열은\n창문 쪽 모서리에서\n시작됐어요",
+   "dur": 4.2,
+   "kicker": "결과는?",
+   "hl": "범인은 '모서리'",
+   "hl_color": "pink"
+  },
+  {
+   "type": "text",
+   "tag": "5 / 8",
+   "body": "높이 날 때마다\n동체가 부풀었다\n줄었다를 반복하며\n금속이 약해져요",
+   "dur": 4.6,
+   "kicker": "금속 피로"
+  },
+  {
+   "type": "text",
+   "tag": "6 / 8",
+   "body": "각진 모서리에는\n그 힘이\n몇 배로 몰려요",
+   "dur": 4.2,
+   "hl": "그래서 거기부터\n금이 가요"
+  },
+  {
+   "type": "text",
+   "tag": "7 / 8",
+   "body": "모서리를 둥글게 하면\n힘이 고르게\n퍼져요",
+   "dur": 4.2,
+   "kicker": "해결책은 '곡선'",
+   "icon": "round"
+  },
+  {
+   "type": "text",
+   "tag": "8 / 8",
+   "body": "그 뒤로\n여객기 창문은\n둥근 모서리가\n표준이 됐어요",
+   "dur": 4.2
+  },
+  {
+   "type": "text",
+   "tag": "보너스 1",
+   "body": "'숨구멍'이에요\n창문 사이 압력을\n맞추고 김서림을\n막아줘요",
+   "dur": 4.6,
+   "kicker": "창문 아래 작은 구멍?",
+   "kicker_color": "yel",
+   "icon": "hole"
+  },
+  {
+   "type": "text",
+   "tag": "보너스 2",
+   "body": "바깥 2겹은\n압력을 버티고\n안쪽 1겹은\n긁힘을 막아요",
+   "dur": 4.6,
+   "kicker": "창문은 사실 3겹",
+   "kicker_color": "yel"
+  },
+  {
+   "type": "text",
+   "tag": "보너스 3",
+   "body": "좌석은 항공사가\n바꿀 수 있지만\n창문은 동체에\n고정돼 있어서예요",
+   "dur": 4.8,
+   "kicker": "창문이 좌석과 안 맞는 이유",
+   "kicker_color": "yel"
+  },
+  {
+   "type": "text",
+   "tag": "보너스 4",
+   "body": "비상시 바깥 상황을\n바로 보려고\n덮개를 열어요",
+   "dur": 4.8,
+   "kicker": "이착륙 때 덮개를 여는 이유",
+   "kicker_color": "yel"
+  },
+  {
+   "type": "text",
+   "tag": "보너스 5",
+   "kicker": "창문 바로 밖은?",
+   "kicker_color": "yel",
+   "body": "순항 고도 약 1만 m\n바깥 기온은\n영하 50도 안팎",
+   "dur": 3.6
+  },
+  {
+   "type": "hook",
+   "dur": 3.2,
+   "tag": "다음 편",
+   "title": "다음 궁금증은\n댓글로 신청!",
+   "size": 104,
+   "pill": "팔로우하고 매일 1분 상식"
+  }
+ ]
+}
