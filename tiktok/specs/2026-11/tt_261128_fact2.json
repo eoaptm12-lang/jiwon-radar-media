@@ -1,0 +1,120 @@
+{
+ "name": "tt_261128_fact2",
+ "accent": "lime",
+ "bpm": 113,
+ "seed": 73,
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 2.2,
+   "tag": "1분 상식",
+   "title": "하늘은 왜\n파란색일까?",
+   "size": 116,
+   "pill": "노을 비밀 + 보너스 5개"
+  },
+  {
+   "type": "text",
+   "tag": "1 / 8",
+   "kicker": "햇빛의 정체",
+   "body": "햇빛은 사실\n무지개 색이\n전부 섞인\n흰빛이에요",
+   "dur": 4.4
+  },
+  {
+   "type": "text",
+   "tag": "2 / 8",
+   "body": "이 빛이\n공기 속 아주 작은\n질소·산소 분자에\n부딪혀요",
+   "dur": 4.4
+  },
+  {
+   "type": "text",
+   "tag": "3 / 8",
+   "kicker": "레일리 산란",
+   "body": "파장이 짧은\n파란빛이\n훨씬 더 많이\n흩어져요",
+   "dur": 4.4
+  },
+  {
+   "type": "text",
+   "tag": "4 / 8",
+   "body": "흩어진 파란빛이\n하늘 사방에서\n우리 눈으로\n들어와요",
+   "hl": "그래서 하늘이 파래요",
+   "dur": 4.6
+  },
+  {
+   "type": "text",
+   "tag": "5 / 8",
+   "kicker": "보라색이 아닌 이유",
+   "kicker_color": "pink",
+   "body": "보라는 햇빛에\n적게 들어 있고\n우리 눈은\n파랑에 더 민감해요",
+   "dur": 4.6
+  },
+  {
+   "type": "text",
+   "tag": "6 / 8",
+   "kicker": "해 질 녘엔?",
+   "body": "햇빛이 비스듬히\n들어와 공기를\n훨씬 길게\n통과해요",
+   "dur": 4.4
+  },
+  {
+   "type": "text",
+   "tag": "7 / 8",
+   "body": "오는 길에\n파란빛은\n거의 다\n흩어져 버려요",
+   "dur": 4.0
+  },
+  {
+   "type": "text",
+   "tag": "8 / 8",
+   "body": "남은 빨강·주황빛이\n눈에 들어와요",
+   "hl": "그래서 노을은 붉어요",
+   "hl_color": "pink",
+   "dur": 4.2
+  },
+  {
+   "type": "text",
+   "tag": "보너스 1",
+   "kicker": "구름은 왜 흰색?",
+   "body": "물방울은 커서\n모든 색을\n비슷하게 흩어\n하얗게 보여요",
+   "dur": 4.4,
+   "kicker_color": "yel"
+  },
+  {
+   "type": "text",
+   "tag": "보너스 2",
+   "kicker": "화성의 노을은?",
+   "body": "반대로 파래요\n고운 먼지가\n파란빛을\n앞으로 보내요",
+   "dur": 4.4,
+   "kicker_color": "yel"
+  },
+  {
+   "type": "text",
+   "tag": "보너스 3",
+   "kicker": "우주의 하늘은?",
+   "body": "공기가 없어\n빛이 흩어지지\n않으니\n까맣게 보여요",
+   "dur": 4.2,
+   "kicker_color": "yel"
+  },
+  {
+   "type": "text",
+   "tag": "보너스 4",
+   "kicker": "바다는 왜 파래?",
+   "body": "물이\n빨간빛을\n흡수하고\n파란빛이 남아서예요",
+   "dur": 4.2,
+   "kicker_color": "yel"
+  },
+  {
+   "type": "text",
+   "tag": "보너스 5",
+   "kicker_color": "yel",
+   "kicker": "무지개는?",
+   "body": "물방울이 햇빛을\n색깔별로 나눠요\n바깥은 빨강\n안쪽은 보라",
+   "dur": 4.0
+  },
+  {
+   "type": "hook",
+   "dur": 3.2,
+   "tag": "다음 편",
+   "title": "다음 궁금증은\n댓글로 신청!",
+   "size": 104,
+   "pill": "팔로우하고 매일 1분 상식"
+  }
+ ]
+}
